@@ -85,7 +85,7 @@ namespace KK_MobReplacer {
         private void IterateFields() {// SHOOT ME NOW
             foreach (FieldInfo field in fields) {
                 var cE = (ConfigEntry<string>)(field.GetValue(this));
-                if (cE?.Value != null && cE.Value.IsNullOrWhiteSpace()) {
+                if (cE?.Value != null && !cE.Value.IsNullOrWhiteSpace()) {
                     if (!replacementMap.ContainsKey(field.Name)) {
                         replacementMap.Add(field.Name, cE.Value);
                     }
