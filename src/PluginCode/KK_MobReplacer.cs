@@ -22,7 +22,7 @@ namespace KK_MobReplacer {
 
         public const string PluginName = "Generic Mob Replacer";
         public const string GUID = "mobReplacer";
-        public const string Version = "1.0.1";
+        public const string Version = "1.0.2";
 
         public const string FileExtension = ".png";
         public const string Filter = "Character cards (*.png)|*.png|All files|*.*";
@@ -32,10 +32,10 @@ namespace KK_MobReplacer {
         private ConfigEntry<string> op_mob_a;
         private ConfigEntry<string> op_mob_b;
         private ConfigEntry<string> op_mob_c;
-        private ConfigEntry<string> idol_class_a;
-        private ConfigEntry<string> idol_class_b;
-        private ConfigEntry<string> idol_class_c;
-        private ConfigEntry<string> idol_class_d;
+        private ConfigEntry<string> idol_classmate_a;
+        private ConfigEntry<string> idol_classmate_b;
+        private ConfigEntry<string> idol_classmate_c;
+        private ConfigEntry<string> idol_classmate_d;
         private ConfigEntry<string> idol_mob_a;
         private ConfigEntry<string> idol_mob_b;
         private ConfigEntry<string> idol_normal_a;
